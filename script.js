@@ -9,6 +9,7 @@ function Passwort_Auswerten() {
     else {
         document.getElementById("Passwort_antwort").innerHTML = "falsches Passwort";
         document.getElementById("Passwort_antwort").style.color = "red";
+        document.getElementById("Ergebnis").innerHTML = "";
     }
 
 }
