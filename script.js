@@ -1,6 +1,7 @@
 function Passwort_Auswerten() {
     var x = document.getElementById("Eingang").value;
     var y = 1;
+    document.getElementById("Eingang").value = "";
     if ( x == y ) {
         document.getElementById("Passwort_antwort").innerHTML = "richtiges Passwort";
         document.getElementById("Passwort_antwort").style.color = "green";
