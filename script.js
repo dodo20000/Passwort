@@ -1,11 +1,11 @@
 function Passwort_Auswerten() {
     var x = document.getElementById("Eingang").value;
-    var y = 1;
+    var y = UHRZEIGERSINN;
     document.getElementById("Eingang").value = "";
     if ( x == y ) {
         document.getElementById("Passwort_antwort").innerHTML = "richtiges Passwort";
         document.getElementById("Passwort_antwort").style.color = "green";
-        document.getElementById("Ergebnis").innerHTML = "Ergebnis";
+        document.getElementById("Ergebnis").innerHTML = "Du findest es im Schuppen";
     }
     else {
         document.getElementById("Passwort_antwort").innerHTML = "falsches Passwort";
